@@ -5,19 +5,19 @@
 }
 a {
   text-decoration: none;
-  color: inherit;
+  color: #fff;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: orange;
+  color: #ccc;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   background: #181818;
-  color: #ccc;
+  color: #fff;
   overflow: hidden;
   margin: 0;
 }
@@ -86,7 +86,7 @@ h6 {
   display: block;
   background-color: inherit;
   color: #ccc;
-  border: 1px solid;
+  border: 1px solid #555;
   padding: 0.4rem 0.7rem;
   font-size: 0.9rem;
   width: 100%;
@@ -134,7 +134,8 @@ h6 {
   width: 60%;
 }
 
-#main-footer {
+#main-footer,
+#main-footer a {
   text-align: center;
   color: #ccc;
   font-size: 0.7rem;
@@ -169,26 +170,25 @@ h6 {
 /* Buttons */
 .primary-btn {
   padding: 0.5rem 1rem;
-  color: #ccc;
-  background-color: darkorange;
+  color: #fff;
+  background-color: #f96816;
   border: none;
   border-radius: 2px;
   text-decoration: none;
   text-align: center;
   cursor: pointer;
-  font-weight: bold;
   transition: background-color 0.4s ease;
   font-size: 0.9rem;
 }
 
 .primary-btn:hover {
-  background-color: orange;
+  background-color: #ff7b39;
 }
 
 .secondary-btn {
   padding: 0.4rem 1rem;
-  color: #ccc;
-  border: 1px solid #ccc;
+  color: #fff;
+  border: 1px solid #f4f4f4;
   border-radius: 2px;
   text-decoration: none;
   box-sizing: border-box;
@@ -199,8 +199,8 @@ h6 {
 }
 
 .secondary-btn:hover {
-  border-color: orange;
-  color: orange;
+  border-color: #ff7b39;
+  color: #ff7b39;
 }
 
 /* Media Queries */
