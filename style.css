@@ -19,6 +19,7 @@ body {
   background: #181818;
   color: #fff;
   margin: 0;
+  min-height: 100vh;
 }
 
 h1,
@@ -159,12 +160,6 @@ footer {
   color: #fff;
 }
 
-#showcase #showcase-content a {
-  display: block;
-  width: fit-content;
-  margin: 0 auto;
-}
-
 /* Buttons */
 .primary-btn {
   padding: 0.5rem 1rem;
@@ -239,6 +234,7 @@ h1 {
   width: 100%;
   align-items: center;
   justify-content: space-evenly;
+  margin-bottom: 25px;
 }
 
 .card {
@@ -256,11 +252,6 @@ h1 {
   min-width: 300px;
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.4);
   transition: all 0.3s ease-in-out;
-}
-
-.card:hover {
-  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.4);
-  transform: translate(-1px, -1px);
 }
 
 .card ul {
